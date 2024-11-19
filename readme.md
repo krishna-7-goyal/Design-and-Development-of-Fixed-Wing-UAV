@@ -3,7 +3,7 @@ This is official repository of design and development of fixed wing UAV project 
 ## DESIGN METHODOGOLGY
 ### AIRFOIL SELECTION
 Airfoil selection is done by selecting different airfoils and then analysing them using XFLR5. We found that NACA2412 with camber 4%  gives us $C_l=1$ at 4$^\circ$-5$^\circ$ AOA. The simulation graphs are shown below.
-![simulation_sheet](https://hackmd.io/_uploads/ryidCtuGyg.png)
+![simulation_sheet](Design Files/simulation  sheet.png)
 We have designed rectangular wing using this airfoil and elevator, rudder are kept Flat.
 ### WEIGHT ESTIMATION
 For estimation of weight, we have found weight of each component individually and then added to get final weight of plane. 
