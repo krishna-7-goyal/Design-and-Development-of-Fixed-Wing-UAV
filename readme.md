@@ -36,8 +36,12 @@ The dimension of aircraft is calculated using the calculator provided by rcplane
 ![dimension sheet](https://github.com/user-attachments/assets/218126f2-06c9-435b-87a4-cb1fadbd9e2e)
 
 A CAD model of aircraft is prepared using this dimensions and fabrication is made with refrence to CAD model.
+## 
+## FABRICATION
+The fuselag of plane is made using foam sheet cutted into various pieces and then glued together. The wings are made by using styrofoam blocks from which airfoils are made using hot wire cutter in various parts all these parts are combined using Carbon Fibre Rod. The Elevator, Ailerons and Rudder are made using foam sheet. Servos are used to move the control surfaces. The mount for motor, servo connections and landing gears are 3d printed. The Final Fabricated Plane is shown below.
 
-
+![Final_plane](https://github.com/user-attachments/assets/a0b9587d-4569-4402-a5d8-72ac964d0a1f)
+##
 
 
 
