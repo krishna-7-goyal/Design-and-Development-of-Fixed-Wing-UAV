@@ -1,23 +1,32 @@
 # DESIGN AND DEVELOPMENT OF FIXED WING UAV
 This is official repository of design and development of fixed wing UAV project at IvLabs, VNIT Nagpur
+#
+<details>
+  <summary>Table of Content</summary>
+  <ol>
+    <li><a href="#DESIGN METHODOGOLGY">Design Methodology</a></li>
+   <ol>
+     <li><a href="#AIRFOIL SELECTION">Airfoil Selection</a></li>
+     <li><a href="#WEIGHT ESTIMATION">Weight Estimation</a></li>
+     <li><a href="#Thrust To Weight Ratio">Thrust To Weight Ratio</a></li>
+     <li><a href="#Configuration of Aircraft">Configuration of Aircraft</a></li>
+     <li><a href="#Estimation and Adjustment">CoG Estimation and Adjustment</a></li>
+     <li><a href="#Demensions of Aircraft">Demensions of Aircraft</a></li>
+   </ol>   
+    <li><a href="#Fabrication">Fabrication</a></li>
+  </ol>
+</details>
+
 ## DESIGN METHODOGOLGY
 ### AIRFOIL SELECTION
-Airfoil selection is done by selecting different airfoils and then analysing them using XFLR5. We found that NACA2412 with camber 4%  gives us $C_l=1$ at 4$^\circ$-5$^\circ$ AOA. The simulation graphs are shown below.
+Airfoil selection is done by selecting different airfoils and then analysing them using XFLR5. We found that NACA2412 with camber 4%  gives us $C_l=1$ at 4 $^\circ$ -5 $^\circ$ AOA. The simulation graphs are shown below.
 ![simulation  sheet](https://github.com/user-attachments/assets/2181c926-fbb7-4846-8c08-43c0063a92b5)
 We have designed rectangular wing using this airfoil and elevator, rudder are kept Flat.
 ### WEIGHT ESTIMATION
 For estimation of weight, we have found weight of each component individually and then added to get final weight of plane. 
 The estimated weight was found to be 1580 grams. The actual weight of plane (as of now) is 1350 grams.
 ### WING SPAN CALCULATION
-For the calculation of wing span We have taken aspect ratio to be 5 which is common for trainers UAV. Then by using the relation of wing loading
-$$\frac{W}{S}=\frac{1}{2}*\rho*V_{stall}^2*(C_l)_{max}$$
-Where
-W=Weight of plane=1600 grams
-$\rho$=1.225 kg/m^3
-$V_{stall}$=12 m/s
-C~l~=1
-S is the wing area
-We found that the S to be 3125 $cm^2$ 
+For the calculation of wing span We have taken aspect ratio to be 5 which is common for trainers UAV. Then by using the relation of wing loading we found that the wing area to be 3125 $cm^2$ 
 By using the aspect ratio relation we found the length of wing to be 1.25m and  chord length of 25 cm.
 
 ### THRUST TO WEIGHT RATIO
@@ -36,6 +45,7 @@ The dimension of aircraft is calculated using the calculator provided by rcplane
 ![dimension sheet](https://github.com/user-attachments/assets/218126f2-06c9-435b-87a4-cb1fadbd9e2e)
 
 A CAD model of aircraft is prepared using this dimensions and fabrication is made with refrence to CAD model.
+
 ## 
 ## FABRICATION
 The fuselag of plane is made using foam sheet cutted into various pieces and then glued together. The wings are made by using styrofoam blocks from which airfoils are made using hot wire cutter in various parts all these parts are combined using Carbon Fibre Rod. The Elevator, Ailerons and Rudder are made using foam sheet. Servos are used to move the control surfaces. The mount for motor, servo connections and landing gears are 3d printed. The Final Fabricated Plane is shown below.
